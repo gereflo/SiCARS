@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>SICARS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/ase.css">
+</head>
+<body>
+<div class="container"  style="width: 600px; height: 100px;">
+	<div>
+	  <h3 class="display-6">Capturador representaciones sociales</h3>
+	  <p class="lead">Proyecto terminal para proyecto de acoso y hostigamiento sexual<br>UAM Cuajimalpa</p>
+	  <hr class="my-4">
+	  <form action="verificausuario.php" method="post">
+		  <div class="form-group">
+			<label>Nombre de usuario</label>
+			<input type="text" class="form-control" id="usuario" aria-describedby="emailHelp" placeholder="Alias de capturador" name= "usuario">
+			<small id="emailHelp" class="form-text text-muted">Nombre de usuario enviado por el administrador</small>
+		  </div>
+		  <div class="form-group">
+			<label>Password</label>
+			<input type="password" class="form-control" id="pass" placeholder="Password" name="pass">
+		  </div>
+		  <button type="submit" class="btn btn-primary">Entrar</button>
+	</form>
+	
+	</div>
+</div>
+</body>
+</html> 

@@ -1,0 +1,56 @@
+
+
+        body {
+            			margin: 0;
+            			background-color: #A81127;
+            			font-family: Abel;
+            			background-image: url("images/textura.png");
+						padding-top: 50px;
+            		}
+            
+            		.content1 {
+            			color:#fff;
+            			margin: 70pt 50pt;
+            			text-align: justify;
+            			min-height: 500px;
+						padding-top: 60px;
+            		}
+            		
+            		.content2 {
+            			color:#fff;
+            			display: block;
+            			margin-top: 40px;
+            			margin-bottom: 40px;
+            			margin-left: auto;
+            			margin-right: auto;
+            			width: 50%;
+            		}
+            		
+            		h1 {
+            			background-color: #ffffff;
+            			color:#A81127;
+            			font-family: Myriad Pro Condensed;
+            		}
+            		
+            		b{
+            			background-color: #ffffff;
+            			color:#A81127;
+            		}
+            		
+            		.bouncy{
+            			animation:bouncy 10s infinite linear;
+            			position:relative;
+            		}
+            		
+            		@keyframes bouncy {
+            			0%{top:0em}
+            			40%{top:0em}
+            			43%{top:-0.9em}
+            			46%{top:0em}
+            			48%{top:-0.4em}
+            			50%{top:0em}
+            			100%{top:0em;}
+            		} 
+            		
+            		.black-background {background-color: Transparent;}
+            		.white {color:#ffffff;}
